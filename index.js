@@ -6,7 +6,6 @@ const helmet = require("helmet");
 const morgan = require("morgan");
 const userRouts = require("./routes/users");
 const authRouts = require("./routes/auth");
-
 dotenv.config();
 
 mongoose.connect(process.env.MONGO_URL, { useNewUrlParser: true }, () => {
