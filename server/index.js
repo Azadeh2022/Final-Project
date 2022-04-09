@@ -15,11 +15,9 @@ mongoose.connect(process.env.MONGO_URL, { useNewUrlParser: true }, () => {
 });
 
 //middleware
-
 app.use(express.json());
 app.use(helmet());
 app.use(morgan("common"));
-
 app.use("/api/users", userRouts);
 app.use("/api/auth", authRouts);
 app.use("/api/posts", postRoute);
