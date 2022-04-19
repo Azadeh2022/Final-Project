@@ -9,25 +9,22 @@ export default function Post({ post }) {
       <div className="postWrapper">
         <div className="postTop">
           <div className="postTopLeft">
-           
-          
+            <img className="postProfileImg" src="/assets/person/1.jpeg" alt=""/>
+            <span className="postUsername">Azadeh Ghobadi</span>
+            <span className="postDate">10 min ago</span>
           </div>
-          <div className="postTopRight">
-            <MoreVert />
+          <div className="postTopRight"></div>
+          <MoreVert/>
           </div>
         </div>
         <div className="postCenter">
-        
+        <span className="postText">hi its my first Post</span>
         </div>
         <div className="postBottom">
-          <div className="postBottomLeft">
-           
-          </div>
-          <div className="postBottomRight">
+         
            
           </div>
         </div>
-      </div>
-    </div>
+     
   );
 }
