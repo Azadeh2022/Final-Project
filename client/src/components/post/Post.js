@@ -1,7 +1,10 @@
 import "./post.css";
 import { MoreVert } from "@material-ui/icons";
+import { Posts } from "../../Data";
+
 
 export default function Post({ post }) {
+  console.log(post);
   return (
     <div className="post">
       <div className="postWrapper">
@@ -12,7 +15,8 @@ export default function Post({ post }) {
               src="/assets/person/1.jpeg"
               alt=""
             />
-            <span className="postUsername">Azadeh Ghobadi</span>
+            <span className="postUsername">
+              Azadeh Ghobadi</span>
             <span className="postDate">10 min ago</span>
           </div>
 
