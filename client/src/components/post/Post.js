@@ -3,10 +3,8 @@ import { MoreVert } from "@material-ui/icons";
 import { Users } from "../../data";
 
 export default function Post ({post}) {
-
-  //const post = Posts;
-   const user = Users.filter(u =>u.id===1)
-  console.log(user[0].username)
+  //  const user = Users.filter(u =>u.id===1)
+  // console.log(user[0].username)
   return (
     <div className="post">
       <div className="postWrapper">
