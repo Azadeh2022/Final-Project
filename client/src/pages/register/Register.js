@@ -33,9 +33,11 @@ export default function Register() {
     <div className="login">
       <div className="loginWrapper">
         <div className="loginLeft">
-          <h3 className="loginLogo">Lamasocial</h3>
+        <img src="assets/logo2.png"   />
+          <h3 className="loginLogo">Cultural Heritage Media</h3>
           <span className="loginDesc">
-            Connect with friends and the world around you on Lamasocial.
+            Connect with Archeologists and Architect and the world around you on
+            CHM.
           </span>
         </div>
         <div className="loginRight">
