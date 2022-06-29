@@ -1,15 +1,16 @@
 import "./sidebar.css";
 import {
-RssFeed,
+  RssFeed,
   Chat,
   PlayCircleFilledOutlined,
   Group,
+  Bookmark,
+  HelpOutline,
   WorkOutline,
   Event,
   School,
-
 } from "@material-ui/icons";
-import { Users } from "../../data";
+import { Users } from "../../dummyData";
 import CloseFriend from "../closeFriend/CloseFriend";
 
 export default function Sidebar() {
@@ -32,8 +33,15 @@ export default function Sidebar() {
           <li className="sidebarListItem">
             <Group className="sidebarIcon" />
             <span className="sidebarListItemText">Groups</span>
-          </li> 
-    
+          </li>
+          <li className="sidebarListItem">
+            <Bookmark className="sidebarIcon" />
+            <span className="sidebarListItemText">Bookmarks</span>
+          </li>
+          <li className="sidebarListItem">
+            <HelpOutline className="sidebarIcon" />
+            <span className="sidebarListItemText">Questions</span>
+          </li>
           <li className="sidebarListItem">
             <WorkOutline className="sidebarIcon" />
             <span className="sidebarListItemText">Jobs</span>
